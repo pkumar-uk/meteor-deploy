@@ -99,9 +99,7 @@ Let us setup oplog. You have to change mongod.conf which is in /etc folder for t
 
 Take a backup of mongod.conf before you edit the file.
 
-use any of your favourite editor to edit /etc/mongod.conf file. go to line which shows
-
-#replication:
+use any of your favourite editor to edit /etc/mongod.conf file. go to line which shows #replication:
 you should replace it with below lines and save
 ```
 replication:
