@@ -9,16 +9,16 @@ I am not covering nginx, ssl and firewall setup.
 
 
 We are using:
-1. Key based SSH for accessing your Linux box and assume you have root access to the box
-2. Nodejs 4*
-3. MongoDB 3.*
-5. pm2 for starting Meteor app
+* Key based SSH for accessing your Linux box and assume you have root access to the box
+* Nodejs 4*
+* MongoDB 3.*
+* pm2 for starting Meteor app
 
 Assumption
-1. Ubuntu 14.04 vps or box where you have root access.
-2. use /opt folder on target box for storing meteor app
-3. you have a running meteor app(1.4* release) on your local machine
-4. Mongodb will be in the same server
+* Ubuntu 14.04 vps or box where you have root access.
+* use /opt folder on target box for storing meteor app
+* you have a running meteor app(1.4* release) on your local machine
+* Mongodb will be in the same server
 
 ## Setup for
 * Ubuntu 14.04
